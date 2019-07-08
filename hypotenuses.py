@@ -69,7 +69,7 @@ def main():
                     
                 while Q != 'Y' or Q != 'y' or Q != 'yes' or Q != 'Yes' or Q != 'YES' or Q != 'N' or Q != 'n' or Q != 'no' or Q != 'No' or Q != 'NO':
                     print('','\n',
-                          'Ops! Insert a value answer. Y/N.',
+                          'Ops! Insert a valid answer. Y/N.',
                           '\n','')
                     
                     Q = str(input('Continue ? S/N '))
@@ -81,7 +81,7 @@ def main():
                     
             except ValueError:
                 print('','\n',
-                          'Ops! Insert a value answer. Y/N.',
+                          'Ops! Insert a valid answer. Y/N.',
                           '\n','')
                 if Q == 'Y' or Q == 'y' or Q == 'yes' or Q == 'Yes' or Q == 'YES':
                     hypotenuses()
