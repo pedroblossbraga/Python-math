@@ -72,7 +72,7 @@ def main():
                           'Ops! Insert a valid answer. Y/N.',
                           '\n','')
                     
-                    Q = str(input('Continue ? S/N '))
+                    Q = str(input('Continue ? Y/N '))
                     if Q == 'Y' or Q == 'y' or Q == 'yes' or Q == 'Yes' or Q == 'YES':
                         hypotenuses()
                     if Q =='N' or Q == 'n' or Q == 'no' or Q == 'No' or Q == 'NO':
