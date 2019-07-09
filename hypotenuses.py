@@ -14,9 +14,9 @@ def main():
         def find_hypotenuses(x):
 
             hyp=[]
-            for c in range(1, x):
-                for a in range(1, x):
-                    for b in range(1, x):
+            for c in range(1, x+1):
+                for a in range(1, x+1):
+                    for b in range(1, x+1):
                         if c*c == (a*a) + (b*b) and c not in hyp:
                             hyp.append(c)
                             print(20*'-', '\n',
