@@ -1,2 +1,8 @@
-# Python-math-study: Find the hypotenuse!
-Some codes in Python, with a Mathematical approach
+# Python-math-study: Some codes in Python, with a Mathematical approach
+
+- hypotenyses: Find the hypotenuse!
+A code that finds a number the hypotenyse in a certain given range of numbers, satisfying the Pitagorean Theorem.
+
+- Mini prompt: A interpreter of simple arithmetic expressions, using abstract data-types for storage, posfix and prefix notation converters. It calculates expressions and assignes values to variables, of numbers in the set {1,2,3,4,5,6,7,8,9}.
+
+Pedro B.B.
